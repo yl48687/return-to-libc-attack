@@ -1,4 +1,4 @@
-# return-to-libc
+# Return to Libc Attack
 The project utilizes the Return-to-libc Attack Lab provided by SEEDLAB 2.0 as a foundational platform for exploration and experimentation in the domain of network security. This lab offers an investigation into an intriguing variant of buffer-overflow attacks, capable of circumventing existing protection schemes deployed in major Linux operating systems. Unlike traditional buffer-overflow exploits that rely on executing malicious shellcode injected into the stack, this variant, known as Return-to-libc, leverages existing code fragments within the libc library to achieve its objectives.
 
 The primary learning objective of this lab is to provide a firsthand understanding and execution experience of Return-to-libc attacks. By exploiting buffer-overflow vulnerabilities in a given program, the exploration delves into the intricacies of crafting and executing Return-to-libc exploits to gain root privileges.
